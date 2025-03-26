@@ -40,24 +40,22 @@ const Contact = () => {
               <FadeIn delay={100}>
                 <div className="space-y-6 mb-8">
                   <ContactInfoCard icon={Phone} title="Phone">
-                    <p>+1 (555) 123-4567</p>
+                    <p>(+91) 8840-299-681</p>
                     <p className="text-sm mt-1">Monday-Friday, 8am-6pm</p>
                   </ContactInfoCard>
                   
                   <ContactInfoCard icon={Mail} title="Email">
-                    <p>info@solarcare.com</p>
+                    <p>solarpowergroup9@gmail.com</p>
                     <p className="text-sm mt-1">We'll respond within 24 hours</p>
                   </ContactInfoCard>
                   
                   <ContactInfoCard icon={MapPin} title="Office">
-                    <p>123 Solar Street</p>
-                    <p>Greenville, CA 98765</p>
+                    <p>Solar Care, Solar Samadhan Kendra, Sector 11, </p>
+                    <p>Indira Nagar, Lucknow - 226016</p>
                   </ContactInfoCard>
                   
                   <ContactInfoCard icon={Clock} title="Hours">
-                    <p>Monday-Friday: 8am-6pm</p>
-                    <p>Saturday: 9am-2pm</p>
-                    <p>Sunday: Closed</p>
+                    <p>All days: 9am-6pm</p>
                   </ContactInfoCard>
                 </div>
               </FadeIn>

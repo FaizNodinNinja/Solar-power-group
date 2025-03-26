@@ -85,7 +85,7 @@ export const MaintenanceProcess: React.FC = () => {
       <div className="mt-16 text-center">
         <FadeIn>
           <a 
-            href="#contact" 
+            href="/contact" 
             className="px-6 py-3 bg-solar-500 text-white rounded-full font-medium inline-flex items-center hover:bg-solar-600 transition-all shadow-lg hover:shadow-xl hover:translate-y-[-2px] active:translate-y-[0px]"
           >
             <span>Schedule Your Maintenance</span>

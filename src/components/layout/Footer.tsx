@@ -1,6 +1,8 @@
 
 import React from 'react';
-import { Facebook, Instagram, Linkedin, Twitter } from 'lucide-react';
+import { Facebook, Instagram, Link, Linkedin, Twitter } from 'lucide-react';
+
+
 
 export const Footer: React.FC = () => {
   return (
@@ -8,30 +10,30 @@ export const Footer: React.FC = () => {
       <div className="container max-w-6xl mx-auto px-4 sm:px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <a href="/" className="flex items-center space-x-2 mb-4">
+            <Link to="/" className="flex items-center space-x-2 mb-4">
               <div className="w-8 h-8 rounded-full bg-solar-500 flex items-center justify-center">
                 <div className="w-6 h-6 rounded-full bg-white flex items-center justify-center">
                   <div className="w-4 h-4 rounded-full bg-solar-500"></div>
                 </div>
               </div>
               <span className="text-xl font-medium">SolarCare</span>
-            </a>
+            </Link>
             <p className="text-sm text-muted-foreground mt-4 max-w-xs">
               Professional solar panel maintenance services to maximize efficiency and lifespan.
             </p>
             <div className="flex space-x-4 mt-6">
-              <a href="#" className="text-gray-500 hover:text-solar-600 transition-colors">
+              <Link to="#" className="text-gray-500 hover:text-solar-600 transition-colors">
                 <Facebook size={18} />
-              </a>
-              <a href="#" className="text-gray-500 hover:text-solar-600 transition-colors">
+              </Link>
+              <Link to="#" className="text-gray-500 hover:text-solar-600 transition-colors">
                 <Twitter size={18} />
-              </a>
-              <a href="#" className="text-gray-500 hover:text-solar-600 transition-colors">
+              </Link>
+              <Link to="#" className="text-gray-500 hover:text-solar-600 transition-colors">
                 <Instagram size={18} />
-              </a>
-              <a href="#" className="text-gray-500 hover:text-solar-600 transition-colors">
+              </Link>
+              <Link to="#" className="text-gray-500 hover:text-solar-600 transition-colors">
                 <Linkedin size={18} />
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -73,8 +75,8 @@ export const Footer: React.FC = () => {
         <div className="border-t border-gray-100 mt-12 pt-8 flex flex-col sm:flex-row justify-between items-center">
           <p className="text-sm text-muted-foreground">&copy; {new Date().getFullYear()} SolarCare. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 sm:mt-0">
-            <a href="#" className="text-sm text-muted-foreground hover:text-solar-600 transition-colors">Privacy Policy</a>
-            <a href="#" className="text-sm text-muted-foreground hover:text-solar-600 transition-colors">Terms of Service</a>
+            <Link to="#" className="text-sm text-muted-foreground hover:text-solar-600 transition-colors">Privacy Policy</Link>
+            <Link to="#" className="text-sm text-muted-foreground hover:text-solar-600 transition-colors">Terms of Service</Link>
           </div>
         </div>
       </div>

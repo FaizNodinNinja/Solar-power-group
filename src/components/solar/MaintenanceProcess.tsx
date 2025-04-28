@@ -84,10 +84,7 @@ export const MaintenanceProcess: React.FC = () => {
       
       <div className="mt-16 text-center">
         <FadeIn>
-          <a 
-            href="/contact" 
-            className="px-6 py-3 bg-solar-500 text-white rounded-full font-medium inline-flex items-center hover:bg-solar-600 transition-all shadow-lg hover:shadow-xl hover:translate-y-[-2px] active:translate-y-[0px]"
-          >
+          <a href="/contact" className="px-6 py-3 bg-solar-500 text-white rounded-full font-medium inline-flex items-center hover:bg-solar-600 transition-all shadow-lg hover:shadow-xl hover:translate-y-[-2px] active:translate-y-[0px]">
             <span>Schedule Your Maintenance</span>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5 ml-2">
               <path fillRule="evenodd" d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z" clipRule="evenodd" />

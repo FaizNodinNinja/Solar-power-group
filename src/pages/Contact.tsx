@@ -50,7 +50,7 @@ const Contact = () => {
                   </ContactInfoCard>
                   
                   <ContactInfoCard icon={MapPin} title="Office">
-                    <p>Solar Care, Solar Samadhan Kendra, Sector 11, </p>
+                    <p>Solar Power Group, Solar Samadhan Kendra, Sector 11, </p>
                     <p>Indira Nagar, Lucknow - 226016</p>
                   </ContactInfoCard>
                   

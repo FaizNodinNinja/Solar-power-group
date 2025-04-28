@@ -63,7 +63,7 @@ export const Footer: React.FC = () => {
             <h4 className="font-medium text-base mb-4">Contact</h4>
             <ul className="space-y-2">
               <li className="text-sm text-muted-foreground">
-              Solar Care, Solar Samadhan Kendra, Sector 11,<br />
+              Solar Power Group, Solar Samadhan Kendra, Sector 11,<br />
               Indira Nagar, Lucknow - 226016
               </li>
               <li className="text-sm text-muted-foreground">solarpowergroup9@gmail.com</li>

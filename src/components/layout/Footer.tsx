@@ -40,11 +40,11 @@ export const Footer: React.FC = () => {
           <div>
             <h4 className="font-medium text-base mb-4">Services</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-sm text-muted-foreground hover:text-solar-600 transition-colors">Panel Cleaning</a></li>
-              <li><a href="#" className="text-sm text-muted-foreground hover:text-solar-600 transition-colors">System Inspection</a></li>
-              <li><a href="#" className="text-sm text-muted-foreground hover:text-solar-600 transition-colors">Performance Testing</a></li>
-              <li><a href="#" className="text-sm text-muted-foreground hover:text-solar-600 transition-colors">Inverter Maintenance</a></li>
-              <li><a href="#" className="text-sm text-muted-foreground hover:text-solar-600 transition-colors">Repair Services</a></li>
+              <li><Link to="#" className="text-sm text-muted-foreground hover:text-solar-600 transition-colors">Panel Cleaning</Link></li>
+              <li><Link to="#" className="text-sm text-muted-foreground hover:text-solar-600 transition-colors">System Inspection</Link></li>
+              <li><Link to="#" className="text-sm text-muted-foreground hover:text-solar-600 transition-colors">Performance Testing</Link></li>
+              <li><Link to="#" className="text-sm text-muted-foreground hover:text-solar-600 transition-colors">Inverter Maintenance</Link></li>
+              <li><Link to="#" className="text-sm text-muted-foreground hover:text-solar-600 transition-colors">Repair Services</Link></li>
             </ul>
           </div>
 

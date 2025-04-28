@@ -20,7 +20,7 @@ const About = () => {
               <FadeIn delay={100}>
                 <h1 className="text-3xl sm:text-4xl font-bold mb-6">About SolarCare</h1>
                 <p className="text-lg text-gray-600 mb-6">
-                  SolarCare is a leading provider of professional solar panel maintenance services, 
+                  Solar Power Group is a leading provider of professional solar panel maintenance services, 
                   dedicated to helping homeowners and businesses maximize the efficiency and lifespan 
                   of their solar investments.
                 </p>

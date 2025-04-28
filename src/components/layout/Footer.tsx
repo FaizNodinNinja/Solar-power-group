@@ -16,7 +16,7 @@ export const Footer: React.FC = () => {
                   <div className="w-4 h-4 rounded-full bg-solar-500"></div>
                 </div>
               </div>
-              <span className="text-xl font-medium">SolarCare</span>
+              <span className="text-xl font-medium">Solar Power Group</span>
             </Link>
             <p className="text-sm text-muted-foreground mt-4 max-w-xs">
               Professional solar panel maintenance services to maximize efficiency and lifespan.
@@ -51,11 +51,11 @@ export const Footer: React.FC = () => {
           <div>
             <h4 className="font-medium text-base mb-4">Company</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-sm text-muted-foreground hover:text-solar-600 transition-colors">About Us</a></li>
-              <li><a href="#" className="text-sm text-muted-foreground hover:text-solar-600 transition-colors">Our Team</a></li>
-              <li><a href="#" className="text-sm text-muted-foreground hover:text-solar-600 transition-colors">Testimonials</a></li>
-              <li><a href="#" className="text-sm text-muted-foreground hover:text-solar-600 transition-colors">Careers</a></li>
-              <li><a href="#" className="text-sm text-muted-foreground hover:text-solar-600 transition-colors">FAQ</a></li>
+              <li><Link to="/about" className="text-sm text-muted-foreground hover:text-solar-600 transition-colors">About Us</Link></li>
+              <li><Link to="/" className="text-sm text-muted-foreground hover:text-solar-600 transition-colors">Our Team</Link></li>
+              <li><Link to="/" className="text-sm text-muted-foreground hover:text-solar-600 transition-colors">Testimonials</Link></li>
+              <li><Link to="/" className="text-sm text-muted-foreground hover:text-solar-600 transition-colors">Careers</Link></li>
+              <li><Link to="/" className="text-sm text-muted-foreground hover:text-solar-600 transition-colors">FAQ</Link></li>
             </ul>
           </div>
 

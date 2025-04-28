@@ -14,7 +14,7 @@ export const Footer: React.FC = () => {
                   <div className="w-4 h-4 rounded-full bg-solar-500"></div>
                 </div>
               </div>
-              <span className="text-xl font-medium">SolarCare</span>
+              <span className="text-xl font-medium">Solar Power Group</span>
             </a>
             <p className="text-sm text-muted-foreground mt-4 max-w-xs">
               Professional solar panel maintenance services to maximize efficiency and lifespan.
@@ -61,7 +61,7 @@ export const Footer: React.FC = () => {
             <h4 className="font-medium text-base mb-4">Contact</h4>
             <ul className="space-y-2">
               <li className="text-sm text-muted-foreground">
-              Solar Care, Solar Samadhan Kendra, Sector 11,<br />
+              Solar Power Group, Solar Samadhan Kendra, Sector 11,<br />
               Indira Nagar, Lucknow - 226016
               </li>
               <li className="text-sm text-muted-foreground">solarpowergroup9@gmail.com</li>

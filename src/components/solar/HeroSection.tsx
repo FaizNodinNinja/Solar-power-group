@@ -1,6 +1,7 @@
 
 import React from 'react';
 import FadeIn from '../ui/FadeIn';
+import { Link } from "react-router-dom";
 
 export const HeroSection: React.FC = () => {
   return (
@@ -33,18 +34,18 @@ export const HeroSection: React.FC = () => {
             
             <FadeIn delay={400}>
               <div className="flex flex-col sm:flex-row gap-4">
-                <a 
-                  href="#contact" 
+                <Link 
+                  to="#contact" 
                   className="px-6 py-3 bg-solar-500 text-white rounded-full font-medium hover:bg-solar-600 transition-all shadow-lg hover:shadow-xl hover:translate-y-[-2px] active:translate-y-[0px]"
                 >
                   Schedule Service
-                </a>
-                <a 
-                  href="#maintenance" 
+                </Link>
+                <Link 
+                  to="/maintenance" 
                   className="px-6 py-3 bg-white text-solar-800 rounded-full font-medium border border-solar-200 hover:bg-solar-50 transition-all"
                 >
                   Learn More
-                </a>
+                </Link>
               </div>
             </FadeIn>
             

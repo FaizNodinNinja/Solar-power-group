@@ -49,11 +49,11 @@ export const Footer: React.FC = () => {
           <div>
             <h4 className="font-medium text-base mb-4">Company</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-sm text-muted-foreground hover:text-solar-600 transition-colors">About Us</a></li>
-              <li><a href="#" className="text-sm text-muted-foreground hover:text-solar-600 transition-colors">Our Team</a></li>
-              <li><a href="#" className="text-sm text-muted-foreground hover:text-solar-600 transition-colors">Testimonials</a></li>
-              <li><a href="#" className="text-sm text-muted-foreground hover:text-solar-600 transition-colors">Careers</a></li>
-              <li><a href="#" className="text-sm text-muted-foreground hover:text-solar-600 transition-colors">FAQ</a></li>
+              <li><a href="/about" className="text-sm text-muted-foreground hover:text-solar-600 transition-colors">About Us</a></li>
+              <li><a href="/services" className="text-sm text-muted-foreground hover:text-solar-600 transition-colors">Our Services</a></li>
+              <li><a href="/maintenance" className="text-sm text-muted-foreground hover:text-solar-600 transition-colors">Maintenance</a></li>
+              <li><a href="/portfolio" className="text-sm text-muted-foreground hover:text-solar-600 transition-colors">Portfolio</a></li>
+              <li><a href="/contact" className="text-sm text-muted-foreground hover:text-solar-600 transition-colors">Contact</a></li>
             </ul>
           </div>
 

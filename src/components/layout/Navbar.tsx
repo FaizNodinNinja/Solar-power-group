@@ -42,7 +42,7 @@ export const Navbar: React.FC = () => {
               <div className="w-4 h-4 rounded-full bg-solar-500"></div>
             </div>
           </div>
-          <span className="text-xl font-medium">SolarCare</span>
+          <span className="text-xl font-medium">Solar Power Group</span>
         </Link>
 
         {/* Desktop Navigation */}

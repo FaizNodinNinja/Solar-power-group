@@ -16,13 +16,13 @@ export const HeroSection: React.FC = () => {
           <div className="order-2 lg:order-1">
             <FadeIn delay={100}>
               <span className="inline-block px-3 py-1 rounded-full bg-solar-100 text-solar-800 text-sm font-medium mb-6">
-                Professional Solar Maintenance
+                Professional Solar Company 
               </span>
             </FadeIn>
             
             <FadeIn delay={200}>
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 leading-tight mb-4">
-                Keep Your <span className="text-solar-500">Solar Panels</span> Performing at Their Best
+                Keep Your <span className="text-solar-500">Solar Panels</span> Installations & Performance at Their Best
               </h1>
             </FadeIn>
             

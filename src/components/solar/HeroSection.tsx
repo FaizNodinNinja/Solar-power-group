@@ -22,13 +22,13 @@ export const HeroSection: React.FC = () => {
             
             <FadeIn delay={200}>
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 leading-tight mb-4">
-                Keep Your <span className="text-solar-500">Solar Panels</span> Installations & Performance at Their Best
+                Keep Your <span className="text-solar-400">Solar Panels</span> Installations & Performance at Their Best
               </h1>
             </FadeIn>
             
             <FadeIn delay={300}>
               <p className="text-lg text-gray-600 mb-8 max-w-lg">
-                Maximize efficiency and extend the lifespan of your solar investment with our professional maintenance services.
+                Solar Power Group is a Premium Services provider for Residential & Commercial Rooftop Solar Installation And Maximize efficiency and extend the lifespan of your solar investment with our professional maintenance services.
               </p>
             </FadeIn>
             

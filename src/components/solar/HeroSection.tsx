@@ -28,7 +28,10 @@ export const HeroSection: React.FC = () => {
             
             <FadeIn delay={300}>
               <p className="text-lg text-gray-600 mb-8 max-w-lg">
-                Solar Power Group is a Premium Services provider for Residential & Commercial Rooftop Solar Installation And Maximize efficiency and extend the lifespan of your solar investment with our professional maintenance services.
+                Solar Power Group is a Premium Service provider for Residential & Commercial Roof-top Solar Panel Installation & maintenance services.
+              </p>
+               <p className="text-lg text-gray-600 mb-8 max-w-lg">
+                Maximize efficiency & extend the lifespan of your solar investment with our professional maintenance services.
               </p>
             </FadeIn>
             
